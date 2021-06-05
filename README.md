@@ -1,6 +1,33 @@
 # blacksheep_essence_website
 
 
+
+## Prérequis : 
+
+
+### Gatsby
+Getting started with Gatsby :
+https://www.gatsbyjs.com/docs/quick-start/
+
+Set Up Your Development Environment :
+https://www.gatsbyjs.com/docs/tutorial/part-0/
+
+## Installation :
+
+1. **Copy github code**
+
+
+2. **Start developing.**
+
+Navigate into your new site's directory and start it up.
+
+```sh
+cd project-name
+gatsby develop
+```
+
+<hr />
+
 <p align="center">
   <a href="https://jodie.lekoarts.de">
     <img alt="LekoArts" src="https://img.lekoarts.de/gatsby/gatsby-site-illustration.png" />
@@ -37,31 +64,6 @@ Also be sure to checkout other [Free & Open Source Gatsby Themes](https://themes
 - SEO (Sitemap, OpenGraph tags, Twitter tags)
 - Offline Support & WebApp Manifest
 
-## 🚀 Getting Started
-
-1. **Create a Gatsby site.**
-
-Use the Gatsby CLI to create a new site, specifying this project
-
-```sh
-gatsby new project-name https://github.com/LekoArts/gatsby-starter-portfolio-jodie
-```
-
-2. **Start developing.**
-
-Navigate into your new site's directory and start it up.
-
-```sh
-cd project-name
-gatsby develop
-```
-
-3. **Open the code and start customizing!**
-
-Your site is now running at `http://localhost:8000`!
-
-If you want to learn more about how you can use a Gatsby starter that is configured with a Gatsby theme, you can checkout this [shorter](https://www.gatsbyjs.com/docs/themes/using-a-gatsby-theme/) or [longer](https://www.gatsbyjs.com/tutorial/using-a-theme/) tutorial. The tutorials don't exactly apply to this starter however the concepts are the same.
-
 ## 📝 Using and modifying this starter
 
 **Important Note:** Please read the guide [Shadowing in Gatsby Themes](https://www.gatsbyjs.com/docs/themes/shadowing/) to understand how to customize the underlying theme!
@@ -91,9 +93,3 @@ Looking for more guidance? Full documentation for Gatsby lives [on Gatsby's webs
 - **For most developers, I recommend starting with the [in-depth tutorial for creating a site with Gatsby](https://www.gatsbyjs.com/tutorial/).** It starts with zero assumptions about your level of ability and walks through every step of the process.
 
 - **To dive straight into code samples, head [to Gatsby's documentation](https://www.gatsbyjs.com/docs/).** In particular, check out the _Reference Guides_ and _Gatsby API_ sections in the sidebar.
-
-## 🌟 Supporting me
-
-Thanks for using this project! I'm always interested in seeing what people do with my projects, so don't hesitate to tag me on [Twitter](https://twitter.com/lekoarts_de) and share the project with me.
-
-Please star this project, share it on Social Media or consider supporting me on [Patreon](https://www.patreon.com/lekoarts) or [GitHub Sponsor](https://github.com/sponsors/LekoArts)!
