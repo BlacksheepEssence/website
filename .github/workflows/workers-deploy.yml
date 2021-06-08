@@ -16,6 +16,8 @@ jobs:
         uses: c-hive/gha-npm-cache@v1
       - name: Publish on cloudflare
         uses: cloudflare/wrangler-action@master
+        env:
+          USER: root
         with:
           apiToken: ${{ secrets.CF_API_TOKEN }}
           environment: 'production'
