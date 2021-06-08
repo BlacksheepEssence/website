@@ -4,7 +4,22 @@ require(`dotenv`).config({
 
 module.exports = {
   siteMetadata: {
-    siteTitleAlt: `Blacksheep spirit`,
+    // Used for the title template on pages other than the index site
+    siteTitle: `Jodie Blacksheep spirit`,
+    // Default title of the page
+    siteTitleAlt: `Blacksheep spirit - long title`,
+    // Can be used for e.g. JSONLD
+    siteHeadline: `Blacksheep spirit - long title`,
+    // Will be used to generate absolute URLs for og:image etc.
+    //siteUrl: `https://jodie.lekoarts.de`,
+    // Used for SEO
+    siteDescription: `Image-heavy photography portfolio with colorful accents & customizable pages. Includes adaptive image grids powered by CSS grid and automatic image integration into projects.`,
+    // Will be set on the html tag
+    siteLanguage: `fr`,
+    // Used for og:image and must be placed inside the `static` folder
+    siteImage: `/banner.jpg`,
+    // Twitter Handle
+    author: `@lekoarts_de`,
   },
   plugins: [
     {
@@ -14,7 +29,7 @@ module.exports = {
         projectsPath: `content/products`,
         projectsUrl: `/produits`,
         navigation: [
-          { name: `Home`, slug: `/home` },
+          { name: `Accueil`, slug: `/home` },
           { name: `Produits`, slug: `/produits` },
           { name: `Présentation`, slug: `/presentation` },
           { name: `Contact`, slug: `/contact` },
