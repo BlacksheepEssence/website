@@ -26,6 +26,12 @@ cd project-name
 gatsby develop
 ```
 
+3. **Deploy on develop**
+```sh
+npm run build
+wrangler publish
+```
+
 <hr />
 
 <p align="center">
