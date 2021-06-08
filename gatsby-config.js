@@ -11,10 +11,14 @@ module.exports = {
       resolve: `@lekoarts/gatsby-theme-jodie`,
       // See the theme's README for all available options
       options: {
+        projectsPath: `content/products`,
+        projectsUrl: `/produits`,
         navigation: [
-          { name: `Projects`, slug: `/projects` },
-          { name: `Instagram`, slug: `/instagram` },
-          { name: `About`, slug: `/about` },
+          { name: `Home`, slug: `/home` },
+          { name: `Produits`, slug: `/produits` },
+          { name: `Présentation`, slug: `/presentation` },
+          { name: `Contact`, slug: `/contact` },
+          { name: `Mentions légales`, slug: `/mentions-legales` },
         ],
       },
     },
@@ -22,12 +26,6 @@ module.exports = {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         trackingId: process.env.GOOGLE_ANALYTICS_ID,
-      },
-    },
-    {
-      resolve: `gatsby-source-instagram`,
-      options: {
-        username: `8556131572`,
       },
     },
     `gatsby-plugin-sitemap`,

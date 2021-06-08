@@ -24,7 +24,6 @@
     "gatsby-plugin-netlify": "^2.4.0",
     "gatsby-plugin-offline": "^3.3.3",
     "gatsby-plugin-sitemap": "^2.5.1",
-    "gatsby-source-instagram": "^0.9.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
