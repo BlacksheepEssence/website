@@ -5,11 +5,11 @@ require(`dotenv`).config({
 module.exports = {
   siteMetadata: {
     // Used for the title template on pages other than the index site
-    siteTitle: `Jodie Blacksheep spirit`,
+    siteTitle: `Blacksheep essences`,
     // Default title of the page
-    siteTitleAlt: `Blacksheep spirit - long title`,
+    siteTitleAlt: `Blacksheep essences - long title`,
     // Can be used for e.g. JSONLD
-    siteHeadline: `Blacksheep spirit - long title`,
+    siteHeadline: `Blacksheep essences - long title`,
     // Will be used to generate absolute URLs for og:image etc.
     //siteUrl: `https://jodie.lekoarts.de`,
     // Used for SEO
