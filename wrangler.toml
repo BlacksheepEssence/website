@@ -10,7 +10,7 @@ vars = { ENVIRONMENT = "develop" }
 bucket = "public"
 entry-point = "workers-site"
 
-[env.production]
+[env.develop]
 vars = { ENVIRONMENT = "develop" }
 
 [env.production]
