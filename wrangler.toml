@@ -4,11 +4,14 @@ account_id = "5faa6e09ba87263c4c8bab2ba5cc720e"
 zone_id = "5f24f61abe6bca245c393fb542bab444"
 workers_dev = true
 route = ""
-vars = { ENVIRONMENT = "dev" }
+vars = { ENVIRONMENT = "develop" }
 
 [site]
 bucket = "public"
 entry-point = "workers-site"
+
+[env.production]
+vars = { ENVIRONMENT = "develop" }
 
 [env.production]
 vars = { ENVIRONMENT = "production" }

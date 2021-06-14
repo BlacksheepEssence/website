@@ -9,5 +9,5 @@
 
 ### Patch Changes
 
-2021-06-14 Add staging deployement environnement
+2021-06-14 Add develop deployement environnement
 2021-06-11 Init website
