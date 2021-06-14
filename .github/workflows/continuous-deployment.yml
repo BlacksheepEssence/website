@@ -1,0 +1,41 @@
+name: Deploy site to Cloudflare Workers
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+
+  deploy:
+    runs-on: ubuntu-latest
+    name: Deploy
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Use cache npm modules
+        uses: c-hive/gha-npm-cache@v1
+
+      - name: Publish staging on cloudflare
+        if: github.ref == 'refs/heads/develop'
+        uses: cloudflare/wrangler-action@master
+        with:
+          apiToken: ${{ secrets.CF_API_TOKEN }}
+          environment: 'develop'
+          preCommands: |
+            npm install
+            npm rebuild node-sass
+            npm i gatsby-cli sass-loader
+            ./node_modules/.bin/gatsby build
+
+      - name: Publish production on cloudflare
+        if: github.ref == 'refs/heads/master'
+        uses: cloudflare/wrangler-action@master
+        with:
+          apiToken: ${{ secrets.CF_API_TOKEN }}
+          environment: 'production'
+          preCommands: |
+            npm install
+            npm rebuild node-sass
+            npm i gatsby-cli sass-loader
+            ./node_modules/.bin/gatsby build
