@@ -5,7 +5,7 @@ import Layout from "@lekoarts/gatsby-theme-jodie/src/components/layout";
 import {visuallyHidden} from "@lekoarts/gatsby-theme-jodie/src/styles/utils";
 import locales from "@lekoarts/gatsby-theme-jodie/src/locales/index";
 import "../../../components/style.css"
-import photo from "/static/istockphoto-480045080-612x612.jpg"
+import photo from "/static/home_desk.jpg"
 
 const Homepage = () => {
     let divisor = 9
@@ -23,7 +23,7 @@ const Homepage = () => {
             <div class="home-bse">
                 <div className="home-article-link" class="home-haut-bse">
                     <button class="simple-bse">Nos produits</button>
-                    <img src="https://cap.img.pmdstatic.net/fit/http.3A.2F.2Fprd2-bone-image.2Es3-website-eu-west-1.2Eamazonaws.2Ecom.2Fcap.2F2020.2F06.2F13.2F61a8e269-52ba-4ac4-9607-c6c9e11b73f5.2Ejpeg/790x395/background-color/ffffff/quality/90/framboises-melons-tomates-quels-sont-les-fruits-et-legumes-made-in-france-bien-plus-chers-1372584.jpg" />
+                    <img src={photo} />
                 </div>
                 <div class="home-bas-bse">
                     <div class="bas-gauche-bse">

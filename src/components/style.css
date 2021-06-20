@@ -1,3 +1,24 @@
+@media all and (max-width: 500px) {
+  .home-bse {
+    height: max-content !important;
+  }
+  .home-haut-bse {
+    height: 60vh !important;
+  }
+  .home-haut-bse img {
+    width: auto !important;
+    height: 100% !important;
+  }
+  .home-bas-bse {
+    flex-direction: column !important;
+    height: max-content !important;
+  }
+  .bas-gauche-bse, .bas-droite-bse {
+    width: 100% !important;
+    height: 35vh !important;
+  }
+}
+
 .home-article-link {
   background: green;
   padding:20px;
