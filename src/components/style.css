@@ -17,6 +17,11 @@
   display: flex;
   align-items: flex-end;
 }
+.home-haut-bse button.simple-bse {
+  margin: 5%;
+  background-color: white;
+  color: black;
+}
 .home-haut-bse img {
   width: 100%;
   position: absolute;
@@ -25,6 +30,10 @@
   width: 100%;
   height: 40%;
   display: flex;
+}
+.home-bas-bse button.simple-bse {
+  background-color: black;
+  color: white;
 }
 .bas-gauche-bse {
   width: 50%;
