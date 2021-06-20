@@ -2,3 +2,52 @@
   background: green;
   padding:20px;
 }
+.home-bse {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.home-haut-bse {
+  width: 100%;
+  height: 60%;
+  box-sizing: border-box;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+}
+.home-haut-bse img {
+  width: 100%;
+  position: absolute;
+}
+.home-bas-bse {
+  width: 100%;
+  height: 40%;
+  display: flex;
+}
+.bas-gauche-bse {
+  width: 50%;
+  height: 100%;
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: flex-end;
+}
+.bas-droite-bse {
+  width: 50%;
+  height: 100%;
+  text-align: right;
+}
+.bas-gauche-bse, .bas-droite-bse {
+  padding: 0% 5%;
+}
+button.simple-bse {
+  z-index: 20;
+  border-radius: 0px;
+  border: 0px;
+  height: 30px;
+  padding: 0px 65px;
+  font-size: 15px;
+  text-transform: uppercase;
+}
