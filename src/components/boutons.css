@@ -1,0 +1,12 @@
+@media all and (max-width: 500px) {
+
+}
+button.simple-bse {
+  z-index: 20;
+  border-radius: 0px;
+  border: 0px;
+  height: 30px;
+  padding: 0px 65px;
+  font-size: 15px;
+  text-transform: uppercase;
+}
