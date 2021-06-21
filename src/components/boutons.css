@@ -1,5 +1,9 @@
 @media all and (max-width: 500px) {
-
+  button.simple-bse {
+    height: 50px !important;
+    width: 80% !important;
+    padding: auto !important;
+  }
 }
 button.simple-bse {
   z-index: 20;
@@ -9,4 +13,9 @@ button.simple-bse {
   padding: 0px 65px;
   font-size: 15px;
   text-transform: uppercase;
+  opacity: 1;
+/*  transition: opacity 1s;*/
+}
+button.simple-bse:hover {
+  /*opacity: 0.7;*/
 }
