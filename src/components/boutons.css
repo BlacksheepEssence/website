@@ -1,7 +1,7 @@
 @media all and (max-width: 500px) {
 
 }
-button.simple-bse {
+a.simple-bse {
   z-index: 20;
   border-radius: 0px;
   border: 0px;
@@ -9,4 +9,5 @@ button.simple-bse {
   padding: 0px 65px;
   font-size: 15px;
   text-transform: uppercase;
+  display: inline-block;
 }
