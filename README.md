@@ -3,8 +3,8 @@
 
 ## Environments URL :
 
-- develop : https://blacksheep-essences-develop.blacksheep-essences.workers.dev/home
-- production : https://blacksheep-essences-production.blacksheep-essences.workers.dev/home
+- develop : https://blacksheep-essences-develop.blacksheep-essences.workers.dev
+- production : https://blacksheep-essences-production.blacksheep-essences.workers.dev
 
 
 ## Prérequis : 
