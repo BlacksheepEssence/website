@@ -6,13 +6,14 @@ import {visuallyHidden} from "@lekoarts/gatsby-theme-jodie/src/styles/utils";
 import locales from "@lekoarts/gatsby-theme-jodie/src/locales/index";
 import "../../../components/style.css"
 import photo from "/static/home_desk.jpg"
+import {Link} from "gatsby";
 
 const Homepage = () => {
     let divisor = 9
 
-    const itemArticles = {
-        slug: '/articles',
-        title: 'Articles',
+    const itemProduits = {
+        slug: '/produits',
+        title: 'Produits',
     }
 
     return (
@@ -21,17 +22,17 @@ const Homepage = () => {
                 {locales.home}
             </h1>
             <div class="home-bse">
-                <div className="home-article-link" class="home-haut-bse">
-                    <button class="simple-bse">Nos produits</button>
+                <div className="home-article-link home-haut-bse">
+                    <Link className="simple-bse" to={itemProduits.slug}>Nos produits</Link>
                     <img src={photo} />
                 </div>
-                <div class="home-bas-bse">
-                    <div class="bas-gauche-bse">
+                <div className="home-bas-bse">
+                    <div className="bas-gauche-bse">
                       <h1>Micro-distillerie</h1>
                     </div>
-                    <div class="bas-droite-bse">
+                    <div className="bas-droite-bse">
                       <h3>Nous travaillons nos saveurs de manière artisanale à partir de produits locaux de qualité.</h3>
-                      <button class="simple-bse">En savoir +</button>
+                      <Link className="simple-bse" to="/">En savoir +</Link>
                     </div>
 
                 </div>
