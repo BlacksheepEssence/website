@@ -4,6 +4,13 @@
 @import "catalogue.css";
 @import "pages_texte.css";
 
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@100&display=swap');
+
+.grid-text span {
+  font-family: 'Big Shoulders Stencil Display', cursive;
+  font-size:100px !important;
+}
+
 @media all and (max-width: 500px) {
   header {
     position: sticky;
