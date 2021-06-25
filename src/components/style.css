@@ -11,3 +11,12 @@
     z-index: 30;
   }
 }
+.css-goki3j-Sidebar {
+  width:100% !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo-bse {
+  width:100% !important;
+}

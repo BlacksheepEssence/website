@@ -1,5 +1,5 @@
 @media all and (max-width: 500px) {
-  button.simple-bse {
+  a.simple-bse {
     height: 50px !important;
     width: 80% !important;
     padding: auto !important;
@@ -13,5 +13,9 @@ a.simple-bse {
   padding: 0px 65px;
   font-size: 15px;
   text-transform: uppercase;
-  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  width: max-content;
 }

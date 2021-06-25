@@ -19,8 +19,7 @@
   }
 }
 .home-article-link {
-  background: green;
-  padding:20px;
+  padding:0px;
 }
 .home-bse {
   width: 100%;
@@ -67,6 +66,9 @@
   width: 50%;
   height: 100%;
   text-align: right;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
 .bas-gauche-bse, .bas-droite-bse {
   padding: 0% 5%;

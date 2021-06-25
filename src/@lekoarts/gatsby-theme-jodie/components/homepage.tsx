@@ -21,7 +21,7 @@ const Homepage = () => {
             <h1 sx={visuallyHidden} data-testid="page-title">
                 {locales.home}
             </h1>
-            <div class="home-bse">
+            <div className="home-bse">
                 <div className="home-article-link home-haut-bse">
                     <Link className="simple-bse" to={itemProduits.slug}>Nos produits</Link>
                     <img src={photo} />
