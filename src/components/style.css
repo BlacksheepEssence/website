@@ -67,7 +67,7 @@ footer {
 .css-y10vd1-Sidebar {
   display: flex !important;
   flex-direction: column !important;
-  padding: 1rem 2rem !important;
+  padding: 1rem 2rem 2rem 2rem !important;
 }
 a.css-goki3j-Sidebar {
   width: 90% !important;

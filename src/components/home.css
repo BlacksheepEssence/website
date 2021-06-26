@@ -1,6 +1,7 @@
 @media all and (max-width: 500px) {
   .home-bse {
     height: max-content !important;
+    flex-direction: column-reverse !important;
   }
   .home-haut-bse {
     height: 60vh !important;
@@ -17,6 +18,10 @@
     width: 100% !important;
     height: 35vh !important;
   }
+  .home-haut-bse a.simple-bse, .home-bas-bse a.simple-bse {
+    opacity: 1 !important;
+  }
+
 }
 .home-article-link {
   padding:0px;
