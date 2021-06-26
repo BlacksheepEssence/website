@@ -1,3 +1,29 @@
 @media all and (max-width: 500px) {
 
 }
+h1 {
+  font-family: Deby;
+  font-weight: 400;
+  font-size: 75px;
+}
+h2 {
+  font-family: DinB;
+}
+h3 {
+  font-family: DinL;
+  font-weight: 400;
+  font-size: 25px;
+}
+h4 {
+  font-family: DinL;
+  text-transform: uppercase;
+  font-size: 15px;
+  height: auto;
+  font-weight: 400;
+}
+header ul {
+  font-family: DinM;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+}
