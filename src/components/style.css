@@ -54,25 +54,25 @@ header {
 footer {
   visibility: hidden;
 }
-.css-goki3j-Sidebar {
+/*.css-goki3j-Sidebar {
   width:100% !important;
   display: flex;
   align-items: center;
   justify-content: center;
-}
+}*/
 .logo-bse {
   width:100% !important;
 }
 /*nav*/
-.css-y10vd1-Sidebar {
+/*.css-y10vd1-Sidebar {
   display: flex !important;
   flex-direction: column !important;
   padding: 1rem 2rem 2rem 2rem !important;
-}
-a.css-goki3j-Sidebar {
+}*/
+header a:first-child {
   width: 90% !important;
   align-self: center !important;
 }
-.css-y10vd1-Sidebar {
+/*.css-y10vd1-Sidebar {
   padding: .5rem 2rem;
-}
+}*/
