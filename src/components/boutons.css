@@ -21,15 +21,7 @@ a.simple-bse {
 }
 
 .home-haut-bse:hover .boite-zoom, .bas-droite-bse:hover .boite-zoom {
-  transform: scale(1.05);
-}
-.home-haut-bse:hover .home-haut-bse a.simple-bse {
-  background-color: black;
-  color: white;
-}
-.bas-droite-bse:hover .home-bas-bse a.simple-bse {
-  background-color: white;
-  color: black;
+  transform: scale(1.04);
 }
 .home-haut-bse {
   width: 100%;

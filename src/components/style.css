@@ -42,6 +42,12 @@
     z-index: 30;
   }
 }
+header {
+  justify-content: space-around !important;
+}
+footer {
+  visibility: hidden;
+}
 .css-goki3j-Sidebar {
   width:100% !important;
   display: flex;
@@ -55,11 +61,12 @@
 .css-y10vd1-Sidebar {
   display: flex !important;
   flex-direction: column !important;
+  padding: 1rem 2rem !important;
 }
 a.css-goki3j-Sidebar {
-  width: 70% !important;
+  width: 90% !important;
   align-self: center !important;
 }
 .css-y10vd1-Sidebar {
-  padding: 1rem 2rem;
+  padding: .5rem 2rem;
 }
