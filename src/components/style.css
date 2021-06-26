@@ -1,25 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@100&display=swap');
 @font-face {
     font-family: 'Deby';
-    src: url('../../public/debby.otf') format('truetype');
+    src: url('../../static/debby.otf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: 'DinL';
-    src: url('../../public/din/DINLightAlternate.ttf') format('truetype');
+    src: url('../../static/din/DINLightAlternate.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: 'DinB';
-    src: url('../../public/din/DINBlackAlternate.ttf') format('truetype');
+    src: url('../../static/din/DINBlackAlternate.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: 'DinM';
-    src: url('../../public/din/DINBoldAlternate.ttf') format('truetype');
+    src: url('../../static/din/DINBoldAlternate.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
