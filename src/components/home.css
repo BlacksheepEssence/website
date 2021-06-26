@@ -40,7 +40,17 @@
   margin: 5%;
   background-color: white;
   color: black;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  transition: box-shadow .7s ease;
 }
+.home-haut-bse:hover a.simple-bse {
+  opacity: 1;
+}
+.home-haut-bse a.simple-bse:hover {
+  box-shadow: 0px 0px 20px #000000c7;
+}
+
 .home-haut-bse img {
   width: 100%;
   position: absolute;
@@ -53,6 +63,15 @@
 .home-bas-bse a.simple-bse {
   background-color: black;
   color: white;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  transition: box-shadow .7s ease;
+}
+.home-bas-bse a.simple-bse:hover {
+  box-shadow: 0px 0px 20px #000000c7;
+}
+.home-bas-bse:hover a.simple-bse {
+  opacity: 1;
 }
 .bas-gauche-bse {
   width: 50%;

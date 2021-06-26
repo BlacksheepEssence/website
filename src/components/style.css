@@ -35,11 +35,17 @@
   font-size:100px !important;
 }
 
-@media all and (max-width: 500px) {
+@media all and (max-width: 600px) {
   header {
     position: sticky;
     top: 0;
     z-index: 30;
+  }
+  .a.css-goki3j-Sidebar {
+    width:40% !important;
+  }
+  .logo-bse {
+    width:10% !important;
   }
 }
 header {
