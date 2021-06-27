@@ -65,7 +65,7 @@ const Navigation = ({ bg }: { bg: string }) => {
                           margin: `10px 0`,
                           padding: `5px 20px 5px 5px`,
                           a: {
-                              fontSize: `40px`
+                              fontSize: `1.75em`
                           }
                       }
                     },
@@ -89,7 +89,7 @@ const Navigation = ({ bg }: { bg: string }) => {
                                 height: `40px`,
                                 width: `40px`,
                                 float: `right`,
-                                position: `absolute`,
+                                position: `fixed`,
                                 top: `40px`,
                                 right: `50px`,
                                 zIndex: `9999`,
