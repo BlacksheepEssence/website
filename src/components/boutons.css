@@ -62,6 +62,7 @@ a.simple-bse {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+  justify-content: flex-end;
   width: 100%;
   transition: transform .5s ease;
 }
