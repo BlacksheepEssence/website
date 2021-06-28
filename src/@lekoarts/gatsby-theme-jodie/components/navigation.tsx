@@ -70,12 +70,15 @@ const Navigation = ({ bg }: { bg: string }) => {
                       }
                     },
                     ".menuBurger": {
-                        display: `block`,
+                        display: `flex`,
+                        alignItems: `center`,
                         position: `absolute`,
-                        top: `50px`,
-                        right: `50px`,
+                        top: `0px`,
+                        right: `0px`,
+                        padding: `0% 5%`,
                         zIndex: `1`,
                         cursor: `pointer`,
+                        height: `100%`,
                         "&.open-menu": {
                             display: `none`,
                         }

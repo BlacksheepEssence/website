@@ -40,9 +40,13 @@
     position: sticky;
     top: 0;
     z-index: 30;
+    height: 70px !important;
+    padding: 0px !important;
   }
-  .a.css-goki3j-Sidebar {
-    width:40% !important;
+  header nav {
+    height: 100% !important;
+    display: flex !important;
+    justify-content: flex-end;
   }
   .logo-bse {
     width:10% !important;
