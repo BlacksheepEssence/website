@@ -33,7 +33,7 @@ header ul a{
   letter-spacing: 2.5px;
 }
 header ul li:last-of-type {
-  margin-top: 3rem;
+  margin: 3rem 0rem;
 }
 header ul li:last-of-type a {
   font-size: 0.9rem !important;

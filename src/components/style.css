@@ -54,25 +54,29 @@
 }
 header {
   justify-content: space-around !important;
+  padding: 0px !important;
 }
+nav {
+  width: 100%;
+}
+nav ul li {
+  padding: 0rem 2rem;
+  width: 100%;
+  transition: background-color .3s ease;
+}
+nav ul li:hover {
+  background-color: black;
+}
+nav ul li:hover a {
+  color: white !important;
+}
+
 footer {
   display: none;
 }
-/*.css-goki3j-Sidebar {
-  width:100% !important;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}*/
 .logo-bse {
   width:100% !important;
 }
-/*nav*/
-/*.css-y10vd1-Sidebar {
-  display: flex !important;
-  flex-direction: column !important;
-  padding: 1rem 2rem 2rem 2rem !important;
-}*/
 header a:first-child {
   width: 90% !important;
   align-self: center !important;
