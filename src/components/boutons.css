@@ -1,7 +1,6 @@
 @media all and (max-width: 600px) {
   a.simple-bse {
     height: 50px !important;
-    width: 80% !important;
     padding: auto !important;
   }
 }

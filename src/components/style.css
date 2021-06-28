@@ -37,7 +37,7 @@
 
 @media all and (max-width: 600px) {
   header {
-    position: sticky;
+    position: sticky !important;
     top: 0;
     z-index: 30;
     height: 70px !important;
@@ -56,7 +56,7 @@ header {
   justify-content: space-around !important;
 }
 footer {
-  visibility: hidden;
+  display: none;
 }
 /*.css-goki3j-Sidebar {
   width:100% !important;

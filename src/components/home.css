@@ -16,7 +16,10 @@
   }
   .bas-gauche-bse, .bas-droite-bse {
     width: 100% !important;
-    height: 35vh !important;
+    height: 40vh !important;
+  }
+  .bas-droite-bse .boite-zoom {
+    justify-content: center !important;
   }
   .home-haut-bse a.simple-bse, .home-bas-bse a.simple-bse {
     opacity: 1 !important;
