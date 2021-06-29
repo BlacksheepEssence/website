@@ -84,3 +84,15 @@ header a:first-child {
 /*.css-y10vd1-Sidebar {
   padding: .5rem 2rem;
 }*/
+.titre-bse {
+  top: 3%;
+}
+.sous-titre-bse {
+  top: 10%;
+}
+.contenance-bse {
+  top: 25%;
+}
+.prix-bse {
+  top: 40%;
+}

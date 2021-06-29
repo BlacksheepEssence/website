@@ -27,6 +27,7 @@ const Project: React.FC<PageProps<DataProps>> = ({ data: { projects }, location 
         <h1 sx={visuallyHidden} data-testid="page-title">
             {locales.projects}
         </h1>
+        <h1>Liqueures</h1>
         <div
             sx={{
                 display: `grid`,
@@ -41,7 +42,10 @@ const Project: React.FC<PageProps<DataProps>> = ({ data: { projects }, location 
                             <Img fluid={project.cover.childImageSharp.fluid} />
                         </div>
                         <div className="grid-text">
-                            <span>{project.shortTitle}</span>
+                            <h3 className="titre-bse">{project.shortTitle}</h3>
+                            <h4 className="sous-titre-bse">sous-titre</h4>
+                            <h4 className="contenance-bse">contenance</h4>
+                            <h3 className="prix-bse">prix</h3>
                         </div>
                     </GridItem>
                 ))

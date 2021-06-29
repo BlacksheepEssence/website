@@ -5,7 +5,7 @@ import { Link } from "gatsby"
 
 const GridItem: React.FC<{ to: string; className?: string }> = ({ children, to, ...props }) => (
     // @ts-ignore
-    <Link
+    <div
         to={to}
         sx={{
             position: `relative`,
@@ -39,7 +39,20 @@ const GridItem: React.FC<{ to: string; className?: string }> = ({ children, to, 
             "> div img": {
                 transition: `all 0.3s ease 0s !important`,
             },
-            "> div > span": {
+            "> div > h3": {
+                zIndex: 10,
+                color: `white`,
+                position: `absolute`,
+                left: 0,
+                right: 0,
+                textAlign: `right`,
+                fontWeight: `bold`,
+                fontSize: [3, 3, 4],
+                padding: 3,
+                textShadow: `0 1px 4px rgba(0, 0, 0, 0.5)`,
+            },
+
+            "> div > h4": {
                 zIndex: 10,
                 color: `white`,
                 position: `absolute`,
@@ -79,7 +92,7 @@ const GridItem: React.FC<{ to: string; className?: string }> = ({ children, to, 
         {...props}
     >
         {children}
-    </Link>
+    </div>
 )
 
 export default GridItem
