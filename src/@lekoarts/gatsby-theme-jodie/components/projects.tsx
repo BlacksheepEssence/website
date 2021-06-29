@@ -32,7 +32,7 @@ const Project: React.FC<PageProps<DataProps>> = ({ data: { projects }, location 
             sx={{
                 display: `grid`,
                 gridTemplateColumns: [`1fr`, `1fr 1fr`],
-                gridAutoRows: `50vw`,
+                gridAutoRows: `36vh`,
             }}
         >
             {projects.nodes.length > 0 ? (
