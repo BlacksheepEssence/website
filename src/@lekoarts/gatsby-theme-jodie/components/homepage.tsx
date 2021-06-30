@@ -1,7 +1,7 @@
 /** @jsx jsx */
 import { jsx } from "theme-ui"
 import React from "react";
-import Layout from "@lekoarts/gatsby-theme-jodie/src/components/layout";
+import Layout from "./layout";
 import {visuallyHidden} from "@lekoarts/gatsby-theme-jodie/src/styles/utils";
 import locales from "@lekoarts/gatsby-theme-jodie/src/locales/index";
 import "../../../components/style.css"
