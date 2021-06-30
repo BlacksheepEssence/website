@@ -27,7 +27,7 @@ const Project: React.FC<PageProps<DataProps>> = ({ data: { projects }, location 
         <h1 sx={visuallyHidden} data-testid="page-title">
             {locales.projects}
         </h1>
-        <h1>Liqueures</h1>
+        <h1 className="categorie-bse">Liqueures</h1>
         <div
             sx={{
                 display: `grid`,
@@ -39,12 +39,12 @@ const Project: React.FC<PageProps<DataProps>> = ({ data: { projects }, location 
                 projects.nodes.map((project) => (
                     <GridItem to={project.slug} key={project.slug} data-testid={project.shortTitle}>
                         <div className="grid-image">
-                            <Img fluid={project.cover.childImageSharp.fluid} />
+                            <Img className="vignette-bse" fluid={project.cover.childImageSharp.fluid} />
                         </div>
                         <div className="grid-text">
                             <h3 className="titre-bse">{project.shortTitle}</h3>
-                            <h4 className="sous-titre-bse">sous-titre</h4>
-                            <h4 className="contenance-bse">contenance</h4>
+                            <p className="sous-titre-bse">sous-titre</p>
+                            <p className="contenance-bse">contenance</p>
                             <h3 className="prix-bse">prix</h3>
                         </div>
                     </GridItem>

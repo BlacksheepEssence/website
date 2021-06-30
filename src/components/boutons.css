@@ -4,6 +4,9 @@
     padding: auto !important;
   }
 }
+.logo-bse:hover {
+  transform: scale(1.04);
+}
 a.simple-bse {
   z-index: 20;
   border-radius: 0px;
@@ -56,7 +59,6 @@ a.simple-bse {
 .home-haut-bse:hover .boite-zoom, .bas-droite-bse:hover .boite-zoom {
   transform: scale(1.04);
 }
-
 .bas-droite-bse .boite-zoom {
   text-align: right;
   display: flex;

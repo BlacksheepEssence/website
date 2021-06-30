@@ -76,6 +76,7 @@ footer {
 }
 .logo-bse {
   width:100% !important;
+  transition: transform .5s ease;
 }
 header a:first-child {
   width: 90% !important;
@@ -85,14 +86,20 @@ header a:first-child {
   padding: .5rem 2rem;
 }*/
 .titre-bse {
-  top: 3%;
+  top: 0%;
 }
 .sous-titre-bse {
-  top: 10%;
+  top: 20%;
 }
 .contenance-bse {
-  top: 25%;
+  top: 30%;
 }
 .prix-bse {
-  top: 40%;
+  top: 50%;
+}
+.vignette-bse {
+  width: 36vh;
+}
+.grid-text {
+  padding-left: 36vh;
 }
