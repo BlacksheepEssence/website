@@ -45,10 +45,12 @@ const Project: React.FC<PageProps<DataProps>> = ({ data: { projects }, location 
                             <Img className="vignette-bse" fluid={project.cover.childImageSharp.fluid} />
                         </div>
                         <div className="grid-text">
-                            <h3 className="titre-bse">{project.shortTitle}</h3>
-                            <p className="sous-titre-bse">{project.subtitle}</p>
-                            <p className="contenance-bse">{project.capacity}</p>
-                            <h3 className="prix-bse">{project.price}</h3>
+                            <div className="test">
+                                <h3 className="titre-bse">{project.shortTitle}</h3>
+                                <p className="sous-titre-bse">{project.subtitle}</p>
+                                <p className="contenance-bse">{project.capacity}</p>
+                                <h3 className="prix-bse">{project.price}</h3>
+                            </div>
                         </div>
                     </GridItem>
                 ))

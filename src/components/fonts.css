@@ -3,6 +3,26 @@
     font-size: 1.7rem !important;
   }
 }
+@media all and (min-width: 1300px) {
+  h1 {
+    font-size: 6rem !important;
+  }
+  h1.categorie-bse {
+    padding: 1rem 4rem !important;
+    font-size: 4.2rem !important;
+  }
+  h3 {
+    font-size: 1.8rem !important;
+    line-height: 2.6rem !important;
+  }
+  header ul a{
+    font-size: 2rem !important;
+  }
+  header ul li:last-of-type a {
+    font-size: 1.2rem !important;
+  }
+}
+
 h1 {
   font-family: Deby;
   font-weight: 400;
@@ -24,14 +44,10 @@ h3 {
   letter-spacing: 1px;
   line-height: 23pt;
 }
-
-.grid-text h3 {
-  font-size: 1.2rem !important;
-}
 h4 {
   font-family: DinM;
   text-transform: uppercase;
-  font-size: 15px;
+  font-size: 1rem;
   height: auto;
   font-weight: 400;
 }
@@ -53,7 +69,7 @@ header ul li:last-of-type {
   margin: 3rem 0rem;
 }
 header ul li:last-of-type a {
-  font-size: 0.9rem !important;
+  font-size: 0.9rem;
   text-decoration: underline;
   text-transform: initial;
   letter-spacing: 1.2px;

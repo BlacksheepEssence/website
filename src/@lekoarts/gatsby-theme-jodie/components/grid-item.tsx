@@ -64,7 +64,7 @@ const GridItem: React.FC<{ to: string; className?: string }> = ({ children, to, 
             },
             "&:hover": {
                 "> div img": {
-                    transform: `scale(1.05)`,
+                    //transform: `scale(1.05)`,
                 },
             },
             "&:focus": {
@@ -77,7 +77,7 @@ const GridItem: React.FC<{ to: string; className?: string }> = ({ children, to, 
             "@media screen and (prefers-reduced-motion: reduce)": {
                 "&:hover": {
                     "> div img": {
-                        transform: `scale(1)`,
+                        //transform: `scale(1)`,
                     },
                     "> div:after": {
                         boxShadow: (t) => `inset 0 0 0 7px ${t.colors.white}`,

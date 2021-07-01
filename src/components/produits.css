@@ -1,0 +1,30 @@
+h3.titre-bse {
+  font-family: DinM;
+  font-size: 1.5rem!important;
+  margin: 0px!important;
+}
+.sous-titre-bse {
+  margin: 0px!important;
+}
+.contenance-bse {
+  margin: 0px!important;
+}
+.prix-bse {
+  font-family: DinM;
+  margin-top: 20px!important;
+
+}
+.vignette-bse {
+  width: 36vh;
+}
+.grid-text {
+  padding-left: 36vh;
+}
+.test {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem;
+}
