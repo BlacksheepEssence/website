@@ -1,18 +1,24 @@
 @media all and (max-width: 600px) {
-  a.simple-bse {
+  a.simpleBse {
     height: 50px !important;
     padding: auto !important;
+  }
+}
+@media all and (min-width: 1300px) {
+  a.simpleBse {
+    height: 3rem !important;
+    padding: 0px 6rem !important;
   }
 }
 .logo-bse:hover {
   transform: scale(1.04);
 }
-a.simple-bse {
+a.simpleBse {
   z-index: 20;
   border-radius: 0px;
   border: 0px;
-  height: 30px;
-  padding: 0px 65px;
+  height: 2rem;
+  padding: 0px 4rem;
   font-size: 15px;
   text-transform: uppercase;
   display: flex;
@@ -25,24 +31,27 @@ a.simple-bse {
   transition: opacity 0.5s ease;
   transition: box-shadow .7s ease;
 }
-.home-bas-bse:hover a.simple-bse, .home-haut-bse:hover a.simple-bse {
+.home-bas-bse:hover a.simpleBse, .home-haut-bse:hover a.simpleBse {
   opacity: 1;
 }
-.home-bas-bse a.simple-bse:hover, .home-haut-bse a.simple-bse:hover {
+.home-bas-bse a.simpleBse:hover, .home-haut-bse a.simpleBse:hover {
   box-shadow: 0px 0px 20px #000000c7;
 }
 
 /* bouton home "nos produits" */
-.home-haut-bse a.simple-bse {
+.home-haut-bse a.simpleBse {
   margin: 5%;
   background-color: white;
   color: black;
 }
 
 /* bouton home "en savoir +" */
-.home-bas-bse a.simple-bse {
+.home-bas-bse a.simpleBse {
   background-color: black;
   color: white;
+}
+.home-bas-bse a.simpleBse h4 {
+  font-family: DinL !important;
 }
 
 /* boutons boites home */

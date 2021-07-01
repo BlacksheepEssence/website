@@ -1,0 +1,22 @@
+.titre-bse {
+  top: 0%;
+}
+.sous-titre-bse {
+  top: 20%;
+}
+.contenance-bse {
+  top: 30%;
+}
+.prix-bse {
+  top: 50%;
+}
+.vignette-bse {
+  width: 36vh;
+}
+.grid-text {
+  padding-left: 36vh;
+}
+.grid-text span {
+  font-family: 'Big Shoulders Stencil Display', cursive;
+  font-size:100px !important;
+}

@@ -1,0 +1,53 @@
+@media all and (max-width: 600px) {
+  header {
+    position: sticky !important;
+    top: 0;
+    z-index: 30;
+    height: 70px !important;
+    padding: 0px !important;
+  }
+  header nav {
+    height: 100% !important;
+    display: flex !important;
+    justify-content: flex-end;
+  }
+  .logo-bse {
+    width:10% !important;
+  }
+}
+@media all and (min-width: 1300px) {
+  header a:first-child {
+    width: 115% !important;
+  }
+}
+
+header {
+  justify-content: space-around !important;
+  padding: 0px !important;
+}
+nav {
+  width: 100%;
+}
+nav ul li {
+  padding: 0rem 2rem;
+  width: 100%;
+  transition: background-color .3s ease;
+}
+nav ul li:hover {
+  background-color: black;
+}
+nav ul li:hover a {
+  color: white !important;
+}
+header a:first-child {
+  width: 90%;
+  align-self: center !important;
+}
+.logo-bse {
+  width:100% !important;
+  transition: transform .5s ease;
+}
+
+footer {
+  display: none;
+}

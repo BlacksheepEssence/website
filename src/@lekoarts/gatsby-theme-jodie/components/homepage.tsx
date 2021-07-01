@@ -25,7 +25,7 @@ const Homepage = () => {
             <div className="home-bse">
                 <div className="home-article-link home-haut-bse">
                   <div className="boite-zoom">
-                    <Link className="simple-bse" to={itemProduits.slug}><h4>Nos produits</h4></Link>
+                    <Link className="simpleBse" to={itemProduits.slug}><h4>Nos produits</h4></Link>
                     <img src={photo} />
                   </div>
                 </div>
@@ -37,7 +37,7 @@ const Homepage = () => {
                     <div className="bas-droite-bse">
                       <div className="boite-zoom">
                         <h3>Nous travaillons nos saveurs de manière artisanale à partir de produits locaux de qualité.</h3>
-                        <Link className="simple-bse" to="/"><h4>En savoir +</h4></Link>
+                        <Link className="simpleBse" to="/"><h4>En savoir +</h4></Link>
                       </div>
                     </div>
 
