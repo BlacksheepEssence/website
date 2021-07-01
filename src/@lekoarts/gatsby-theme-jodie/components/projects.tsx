@@ -14,7 +14,10 @@ import "../../../components/style.css"
 type DataProps = {
     projects: {
         nodes: {
+            subtitle: string
             shortTitle: string
+            price: string
+            capacity: string
             slug: string
             cover: ChildImageSharp
         }[]
@@ -43,9 +46,9 @@ const Project: React.FC<PageProps<DataProps>> = ({ data: { projects }, location 
                         </div>
                         <div className="grid-text">
                             <h3 className="titre-bse">{project.shortTitle}</h3>
-                            <p className="sous-titre-bse">sous-titre</p>
-                            <p className="contenance-bse">contenance</p>
-                            <h3 className="prix-bse">prix</h3>
+                            <p className="sous-titre-bse">{project.subtitle}</p>
+                            <p className="contenance-bse">{project.capacity}</p>
+                            <h3 className="prix-bse">{project.price}</h3>
                         </div>
                     </GridItem>
                 ))
