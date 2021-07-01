@@ -1,14 +1,18 @@
-.titre-bse {
-  top: 0%;
+h3.titre-bse {
+  font-family: DinM;
+  font-size: 1.5rem!important;
+  margin: 0px!important;
 }
 .sous-titre-bse {
-  top: 20%;
+  margin: 0px!important;
 }
 .contenance-bse {
-  top: 30%;
+  margin: 0px!important;
 }
 .prix-bse {
-  top: 50%;
+  font-family: DinM;
+  margin-top: 20px!important;
+
 }
 .vignette-bse {
   width: 36vh;
@@ -16,7 +20,11 @@
 .grid-text {
   padding-left: 36vh;
 }
-.grid-text span {
-  font-family: 'Big Shoulders Stencil Display', cursive;
-  font-size:100px !important;
+.test {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem;
 }
