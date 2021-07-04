@@ -4,7 +4,7 @@ import Projects from "../../../components/projects"
 import { ChildImageSharp } from "@lekoarts/gatsby-theme-jodie/src/types"
 
 type DataProps = {
-  projects: {
+  products: {
     nodes: {
       subtitle: string
       shortTitle: string

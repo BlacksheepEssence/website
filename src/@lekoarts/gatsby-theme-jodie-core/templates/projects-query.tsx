@@ -5,7 +5,7 @@ export default ProjectsComponent
 
 export const query = graphql`
   query {
-    projects: allProject(sort: { fields: date, order: DESC }) {
+    products: allProduct(sort: { fields: date, order: DESC }) {
       nodes {
         subtitle
         shortTitle

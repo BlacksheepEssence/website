@@ -12,7 +12,7 @@ import { visuallyHidden } from "@lekoarts/gatsby-theme-jodie/src/styles/utils"
 import "../../../components/style.css"
 
 type DataProps = {
-    projects: {
+    products: {
         nodes: {
             subtitle: string
             shortTitle: string
@@ -24,7 +24,7 @@ type DataProps = {
     }
 }
 
-const Project: React.FC<PageProps<DataProps>> = ({ data: { projects }, location }) => (
+const Project: React.FC<PageProps<DataProps>> = ({ data: { products }, location }) => (
     <Layout>
         <SEO title="Projects" pathname={location.pathname} />
         <h1 sx={visuallyHidden} data-testid="page-title">
@@ -38,24 +38,24 @@ const Project: React.FC<PageProps<DataProps>> = ({ data: { projects }, location 
                 gridAutoRows: `36vh`,
             }}
         >
-            {projects.nodes.length > 0 ? (
-                projects.nodes.map((project) => (
-                    <GridItem to={project.slug} key={project.slug} data-testid={project.shortTitle}>
+            {products.nodes.length > 0 ? (
+                products.nodes.map((product) => (
+                    <GridItem to={product.slug} key={product.slug} data-testid={product.shortTitle}>
                         <div className="grid-image">
-                            <Img className="vignette-bse" fluid={project.cover.childImageSharp.fluid} />
+                            <Img className="vignette-bse" fluid={product.cover.childImageSharp.fluid} />
                         </div>
                         <div className="grid-text">
                             <div className="test">
-                                <h3 className="titre-bse">{project.shortTitle}</h3>
-                                <p className="sous-titre-bse">{project.subtitle}</p>
-                                <p className="contenance-bse">{project.capacity}</p>
-                                <h3 className="prix-bse">{project.price}</h3>
+                                <h3 className="titre-bse">{product.shortTitle}</h3>
+                                <p className="sous-titre-bse">{product.subtitle}</p>
+                                <p className="contenance-bse">{product.capacity}</p>
+                                <h3 className="prix-bse">{product.price}</h3>
                             </div>
                         </div>
                     </GridItem>
                 ))
             ) : (
-                <div sx={{ padding: 3 }}>No projects found at the location defined for "projectsPath"</div>
+                <div sx={{ padding: 3 }}>No products found at the location defined for "projectsPath"</div>
             )}
         </div>
     </Layout>

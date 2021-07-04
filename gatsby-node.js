@@ -3,12 +3,13 @@ const withDefaults = require(`@lekoarts/gatsby-theme-jodie-core/utils/default-op
 // Create general interfaces that you could can use to leverage other data sources
 // The core theme sets up MDX as a type for the general interface
 exports.createSchemaCustomization = ({ actions, schema }, themeOptions) => {
+  console.info('CUSTOM - createSchemaCustomization')
   const { createTypes, createFieldExtension } = actions
 
   const { basePath } = withDefaults(themeOptions)
 
   createTypes(`
-    interface Project @nodeInterface {
+    interface Product @nodeInterface {
       id: ID!
       title: String!
       subtitle: String
@@ -24,7 +25,7 @@ exports.createSchemaCustomization = ({ actions, schema }, themeOptions) => {
       body: String!
     }
 
-    type MdxProject implements Node & Project {
+    type MdxProduct implements Node & Product {
       title: String!
       subtitle: String
       shortTitle: String!
@@ -57,8 +58,9 @@ exports.onCreateNode = ({ node, actions, getNode, createNodeId, createContentDig
   const fileNode = getNode(node.parent)
   const source = fileNode.sourceInstanceName
 
+
   // Check for "projects" and create the "Project" type
-  if (node.internal.type === `Mdx` && source === projectsPath) {
+  if (node.internal.type === `Mdx` && source === 'content/products') {
 
     const fieldData = {
       slug: node.frontmatter.slug ? node.frontmatter.slug : undefined,
@@ -73,22 +75,22 @@ exports.onCreateNode = ({ node, actions, getNode, createNodeId, createContentDig
       color: node.frontmatter.color ? node.frontmatter.color : undefined,
     }
 
-    const mdxProjectId = createNodeId(`${node.id} >>> MdxProject`)
+    const mdxProductId = createNodeId(`${node.id} >>> MdxProduct`)
 
     createNode({
       ...fieldData,
       // Required fields
-      id: mdxProjectId,
+      id: mdxProductId,
       parent: node.id,
       children: [],
       internal: {
-        type: `MdxProject`,
+        type: `MdxProduct`,
         contentDigest: createContentDigest(fieldData),
         content: JSON.stringify(fieldData),
-        description: `Mdx implementation of the Project interface`,
+        description: `Mdx implementation of the Product interface`,
       },
     })
 
-    createParentChildLink({ parent: node, child: getNode(mdxProjectId) })
+    createParentChildLink({ parent: node, child: getNode(mdxProductId) })
   }
 }
