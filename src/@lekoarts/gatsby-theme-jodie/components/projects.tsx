@@ -36,6 +36,10 @@ const Project: React.FC<PageProps<DataProps>> = ({ data: { products }, location 
                 display: `grid`,
                 gridTemplateColumns: [`1fr`, `1fr 1fr`],
                 gridAutoRows: `36vh`,
+                "@media all and (max-width: 1023px)": {
+                  gridAutoRows: `27vh`,
+                }
+
             }}
         >
             {products.nodes.length > 0 ? (
@@ -45,7 +49,7 @@ const Project: React.FC<PageProps<DataProps>> = ({ data: { products }, location 
                             <Img className="vignette-bse" fluid={product.cover.childImageSharp.fluid} />
                         </div>
                         <div className="grid-text">
-                            <div className="test">
+                            <div className="vignette-text">
                                 <h3 className="titre-bse">{product.shortTitle}</h3>
                                 <p className="sous-titre-bse">{product.subtitle}</p>
                                 <p className="contenance-bse">{product.capacity}</p>

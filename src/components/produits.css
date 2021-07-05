@@ -1,3 +1,12 @@
+@media all and (max-width: 600px) {
+  .vignette-bse {
+    width: 27vh !important;
+  }
+  .grid-text {
+    padding-left: 27vh !important;
+  }
+}
+
 h3.titre-bse {
   font-family: DinM;
   font-size: 1.5rem!important;
@@ -12,7 +21,6 @@ h3.titre-bse {
 .prix-bse {
   font-family: DinM;
   margin-top: 20px!important;
-
 }
 .vignette-bse {
   width: 36vh;
@@ -20,7 +28,7 @@ h3.titre-bse {
 .grid-text {
   padding-left: 36vh;
 }
-.test {
+.vignette-text {
   width: 100%;
   height: 100%;
   display: flex;

@@ -4,22 +4,8 @@
   }
 }
 @media all and (min-width: 1300px) {
-  h1 {
-    font-size: 6rem !important;
-  }
-  h1.categorie-bse {
-    padding: 1rem 4rem !important;
-    font-size: 4.2rem !important;
-  }
-  h3 {
-    font-size: 1.8rem !important;
-    line-height: 2.6rem !important;
-  }
-  header ul a{
-    font-size: 2rem !important;
-  }
-  header ul li:last-of-type a {
-    font-size: 1.2rem !important;
+  html {
+    font-size: 26px !important;
   }
 }
 
