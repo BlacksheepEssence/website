@@ -30,7 +30,7 @@ const Project: React.FC<PageProps<DataProps>> = ({ data: { products }, location 
         <h1 sx={visuallyHidden} data-testid="page-title">
             {locales.projects}
         </h1>
-        <h1 className="categorie-bse">Liqueures</h1>
+        <h1 className="categorie-bse">Liqueurs</h1>
         <div
             sx={{
                 display: `grid`,
