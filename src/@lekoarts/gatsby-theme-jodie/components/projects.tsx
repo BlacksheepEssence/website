@@ -14,6 +14,7 @@ import "../../../components/style.css"
 type DataProps = {
     products: {
         nodes: {
+            category: string
             subtitle: string
             shortTitle: string
             price: string
@@ -24,44 +25,58 @@ type DataProps = {
     }
 }
 
+const Categories = [
+    'Eau de vie',
+    'Liqueurs'
+]
+
 const Project: React.FC<PageProps<DataProps>> = ({ data: { products }, location }) => (
     <Layout>
         <SEO title="Projects" pathname={location.pathname} />
         <h1 sx={visuallyHidden} data-testid="page-title">
             {locales.projects}
         </h1>
-        <h1 className="categorie-bse">Liqueurs</h1>
-        <div
-            sx={{
-                display: `grid`,
-                gridTemplateColumns: [`1fr`, `1fr 1fr`],
-                gridAutoRows: `36vh`,
-                "@media all and (max-width: 1023px)": {
-                  gridAutoRows: `27vh`,
-                }
 
-            }}
-        >
-            {products.nodes.length > 0 ? (
-                products.nodes.map((product) => (
-                    <GridItem to={product.slug} key={product.slug} data-testid={product.shortTitle}>
-                        <div className="grid-image">
-                            <Img className="vignette-bse" fluid={product.cover.childImageSharp.fluid} />
-                        </div>
-                        <div className="grid-text">
-                            <div className="vignette-text">
-                                <h3 className="titre-bse">{product.shortTitle}</h3>
-                                <p className="sous-titre-bse">{product.subtitle}</p>
-                                <p className="contenance-bse">{product.capacity}</p>
-                                <h3 className="prix-bse">{product.price}</h3>
-                            </div>
-                        </div>
-                    </GridItem>
-                ))
-            ) : (
-                <div sx={{ padding: 3 }}>No products found at the location defined for "projectsPath"</div>
-            )}
-        </div>
+        {Categories.map((category) => (
+            <div>
+                <h2 className="categorie-bse">{category}</h2>
+
+                <div
+                    sx={{
+                        display: `grid`,
+                        gridTemplateColumns: [`1fr`, `1fr 1fr`],
+                        gridAutoRows: `36vh`,
+                        "@media all and (max-width: 1023px)": {
+                            gridAutoRows: `27vh`,
+                        }
+
+                    }}
+                >
+
+                    {products.nodes.length > 0 ? (
+                        products.nodes.map((product) => (
+                            product.category == category ?
+                                <GridItem to={product.slug} key={product.slug} data-testid={product.shortTitle}>
+                                    <div className="grid-image">
+                                        <Img className="vignette-bse" fluid={product.cover.childImageSharp.fluid} />
+                                    </div>
+                                    <div className="grid-text">
+                                        <div className="vignette-text">
+                                            <h3 className="titre-bse">{product.shortTitle}</h3>
+                                            <p className="sous-titre-bse">{product.subtitle}</p>
+                                            <p className="contenance-bse">{product.capacity}</p>
+                                            <h3 className="prix-bse">{product.price}</h3>
+                                        </div>
+                                    </div>
+                                </GridItem>
+                            : ("")
+                        ))
+                    ) : (
+                        <div sx={{ padding: 3 }}>No products found at the location defined for "projectsPath"</div>
+                    )}
+                </div>
+            </div>
+        ))}
     </Layout>
 )
 

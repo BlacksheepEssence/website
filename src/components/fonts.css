@@ -14,7 +14,10 @@ h1 {
   font-weight: 400;
   font-size: 4.2rem;
 }
-h1.categorie-bse {
+h2.categorie-bse {
+  font-family: Deby;
+  font-weight: 400;
+  font-size: 4.2rem;
   background-color: black;
   color: white;
   padding-left: 2rem;

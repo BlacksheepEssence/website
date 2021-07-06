@@ -7,6 +7,7 @@ export const query = graphql`
   query {
     products: allProduct(sort: { fields: date, order: DESC }) {
       nodes {
+        category
         subtitle
         shortTitle
         price

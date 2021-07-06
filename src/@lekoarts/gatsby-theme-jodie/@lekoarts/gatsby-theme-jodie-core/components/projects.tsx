@@ -6,6 +6,7 @@ import { ChildImageSharp } from "@lekoarts/gatsby-theme-jodie/src/types"
 type DataProps = {
   products: {
     nodes: {
+      category: string
       subtitle: string
       shortTitle: string
       price: string
