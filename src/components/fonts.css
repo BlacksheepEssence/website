@@ -10,44 +10,44 @@
 }
 
 h1 {
-  font-family: Deby;
-  font-weight: 400;
-  font-size: 4.2rem;
+  font-family: Deby !important;
+  font-weight: 400 !important;
+  font-size: 4.2rem !important;
 }
 h2.categorie-bse {
-  font-family: Deby;
-  font-weight: 400;
-  font-size: 2.5rem;
-  line-height: 2;
-  letter-spacing: .1rem;
-  background-color: black;
-  color: white;
-  padding-left: 2rem;
-  margin: 0px;
+  font-family: Deby !important;
+  font-weight: 400 !important;
+  font-size: 2.5rem !important;
+  line-height: 2 !important;
+  letter-spacing: .1rem !important;
+  background-color: black !important;
+  color: white !important;
+  padding-left: 2rem !important;
+  margin: 0px !important;
 }
 h2 {
-  font-family: DinB;
+  font-family: DinB !important;
 }
 h3 {
-  font-family: DinL;
-  font-weight: 400;
-  font-size: 1.2rem;
-  letter-spacing: 1px;
-  line-height: 23pt;
+  font-family: DinL !important;
+  font-weight: 400 !important;
+  font-size: 1.2rem !important;
+  letter-spacing: 1px !important;
+  line-height: 23pt !important;
 }
 h4 {
-  font-family: DinM;
-  text-transform: uppercase;
-  font-size: 1rem;
-  height: auto;
-  font-weight: 400;
+  font-family: DinM !important;
+  text-transform: uppercase !important;
+  font-size: 1rem !important;
+  height: auto !important;
+  font-weight: 400 !important;
 }
 p {
-  font-family: DinL;
-  font-weight: 400;
-  font-size: 1rem;
-  letter-spacing: 1px;
-  line-height: 23pt;
+  font-family: DinL !important;
+  font-weight: 400 !important;
+  font-size: 1rem !important;
+  letter-spacing: 1px !important;
+  line-height: 23pt !important;
 }
 header ul a{
   font-family: DinM;

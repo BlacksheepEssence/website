@@ -48,9 +48,9 @@ const ContactForm = () => {
                 <div>
                     <label htmlFor="message">Message</label>
                     <br />
-                    <textarea name="message" placeholder="Message" cols="26" rows="10"></textarea>
+                    <textarea name="message" placeholder="" cols="26" rows="10"></textarea>
                 </div>
-                <button type="submit">Send</button>
+                <button type="submit">Envoyer</button>
             </form>
         </div>
     );
