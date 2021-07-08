@@ -17,7 +17,9 @@ h1 {
 h2.categorie-bse {
   font-family: Deby;
   font-weight: 400;
-  font-size: 4.2rem;
+  font-size: 2.5rem;
+  line-height: 2;
+  letter-spacing: .1rem;
   background-color: black;
   color: white;
   padding-left: 2rem;
