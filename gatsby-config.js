@@ -29,7 +29,7 @@ module.exports = {
         projectsPath: `content/products`,
         projectsUrl: `/produits`,
         navigation: [
-          { name: `Accueil`, slug: `/home` },
+          { name: `Accueil`, slug: `/` },
           { name: `Produits`, slug: `/produits` },
           { name: `Présentation`, slug: `/presentation` },
           { name: `Contact`, slug: `/contact` },
