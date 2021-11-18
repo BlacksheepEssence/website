@@ -115,20 +115,6 @@ input, textarea {
   align-items: center;
   cursor: pointer !important;
 }
-.produitsBse .simpleBse h4 {
-  margin: unset;
-}
-
-.produitsBse .boite-zoom {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  margin-bottom: 2rem;
-  padding-bottom: 1rem;
-  max-width: 100%;
-  padding-right: 3rem;
-  overflow: hidden;
-}
 .produitsBse .boite-zoom:hover {
   transform: scale(1.04);
 }
@@ -141,7 +127,7 @@ input, textarea {
     height: 50px !important;
     padding: auto !important;
   }
-  .bse-small-input, .bse-large-input, button.simpleBse {width:90%;}
+  .bse-small-input, .bse-large-input, button.simpleBse {width:100%;}
   button.simpleBse {height: 3rem;}
   .bse-small-input input {
     height: 3rem;
@@ -155,14 +141,6 @@ input, textarea {
   }
   input, textarea {
     padding-left: 1rem;
-  }
-  .produitsBse .simpleBse {
-    width: 80%;
-  }
-  .produitsBse .boxBse {
-    align-items: center;
-    padding: 2rem 2rem 5rem 2rem;
-    margin: 0px;
   }
   .produitsBse button.simpleBse {
     width: 90%;

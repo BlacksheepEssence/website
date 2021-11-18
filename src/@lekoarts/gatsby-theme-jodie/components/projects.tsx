@@ -33,7 +33,7 @@ const Categories = [
 const Project: React.FC<PageProps<DataProps>> = ({ data: { products }, location }) => (
     <Layout>
         <SEO title="Projects" pathname={location.pathname} />
-        <h1 data-testid="page-title" className="titreBse">
+        <h1 sx={visuallyHidden} data-testid="page-title" className="titreBse">
             {locales.projects}
         </h1>
 

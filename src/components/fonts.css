@@ -14,11 +14,14 @@ h1 {
   font-weight: 400 !important;
   font-size: 4.2rem !important;
 }
+h1.titreBse {
+  margin-left: 3rem;
+}
 h2.categorie-bse {
   font-family: DinL !important;
   font-weight: 100 !important;
   font-size: 1.3rem !important;
-  line-height: 2 !important;
+  line-height: 2;
   letter-spacing: .1rem !important;
   background-color: black !important;
   color: white !important;
