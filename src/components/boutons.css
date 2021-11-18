@@ -55,7 +55,13 @@ button.simpleBse {
   background-color: black;
   color: white;
 }
-.home-bas-bse a.simpleBse h4 {
+/* bouton page produits */
+.produitsBse a.simpleBse {
+  background-color: black !important;
+  color: white !important;
+  opacity: 1;
+}
+.home-bas-bse a.simpleBse h4, .produitsBse a.simpleBse h4 {
   font-family: DinL !important;
 }
 
@@ -103,7 +109,7 @@ input, textarea, .produitsBse button.simpleBse {
 input, textarea {
   padding-left: .5rem;
 }
-.produitsBse button.simpleBse:hover {
+.produitsBse a.simpleBse:hover {
   box-shadow: 0px 0px 30px #000000c7;
 }
 .produitsBse button.simpleBse {
