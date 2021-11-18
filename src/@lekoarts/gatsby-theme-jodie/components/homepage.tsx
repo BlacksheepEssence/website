@@ -37,7 +37,7 @@ const Homepage = () => {
                     <div className="bas-droite-bse">
                       <div className="boite-zoom">
                         <h3>Nous travaillons nos saveurs de manière artisanale à partir de produits locaux de qualité.</h3>
-                        <Link className="simpleBse" to="/"><h4>En savoir +</h4></Link>
+                        <Link className="simpleBse" to="/presentation"><h4>En savoir +</h4></Link>
                       </div>
                     </div>
 

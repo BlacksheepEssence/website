@@ -1,7 +1,7 @@
 /** @jsx jsx */
 import { jsx } from "theme-ui"
 import * as React from "react"
-import { PageProps } from "gatsby"
+import {Link, PageProps} from "gatsby"
 import Img from "gatsby-image"
 import Layout from "@lekoarts/gatsby-theme-jodie/src/components/layout"
 import { ChildImageSharp } from "@lekoarts/gatsby-theme-jodie/src/types"
@@ -42,7 +42,7 @@ const Project: React.FC<PageProps<DataProps>> = ({ data: { products }, location 
             <p>
             Nos produits sont élaboré en Guadeloupe à partir de fruits récoltés localement. Notre carte évolue régulièrement et vous pouvez la découvrir en bas de page !
             </p>
-            <button className="simpleBse"><h4>Passer commande</h4></button>
+            <Link className="simpleBse" to="/contact"><h4>Passer commande</h4></Link>
           </div>
 
         {Categories.map((category) => (
