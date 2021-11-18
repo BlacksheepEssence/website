@@ -31,3 +31,8 @@
       padding: 0px 5vw;
   }
 }
+@media all and (max-height: 1400px) {
+  .produitsBse {
+      padding: 0px 5vw;
+  }
+}
