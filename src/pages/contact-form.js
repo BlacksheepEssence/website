@@ -33,24 +33,24 @@ const ContactForm = () => {
             });
     };
     return (
-        <div className="col-md-8 mt-5">
+        <div className="col-md-8 mt-5 contactBse">
             <form onSubmit={handleOnSubmit}>
-                <div>
+                <div className="bse-small-input">
                     <label htmlFor="email">E-mail</label>
                     <br />
                     <input type="email" name="email" placeholder="" />
                 </div>
-                <div>
+                <div className="bse-small-input">
                     <label htmlFor="name">Nom Prénom</label>
                     <br />
                     <input type="text" name="name" placeholder="" />
                 </div>
-                <div>
+                <div className="bse-large-input">
                     <label htmlFor="message">Message</label>
                     <br />
                     <textarea name="message" placeholder="" cols="26" rows="10"></textarea>
                 </div>
-                <button type="submit">Envoyer</button>
+                <button type="submit" className="simpleBse"><h4>Envoyer</h4></button>
             </form>
         </div>
     );

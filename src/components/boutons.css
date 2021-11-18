@@ -1,9 +1,3 @@
-@media all and (max-width: 600px) {
-  a.simpleBse {
-    height: 50px !important;
-    padding: auto !important;
-  }
-}
 @media all and (min-width: 1300px) {
   a.simpleBse {
 
@@ -12,11 +6,11 @@
 .logo-bse:hover {
   transform: scale(1.04);
 }
-a.simpleBse {
+a.simpleBse, button.simpleBse {
   z-index: 20;
   border-radius: 0px;
   border: 0px;
-  height: 2rem;
+  height: 2.5rem;
   padding: 0px 4rem;
   font-size: 15px;
   text-transform: uppercase;
@@ -30,13 +24,25 @@ a.simpleBse {
   transition: opacity 0.5s ease;
   transition: box-shadow .7s ease;
 }
+button.boxBse {
+  text-decoration: none;
+  box-shadow: 0px;
+  background-color: unset;
+  border: unset;
+  box-shadow: 0px 0px 7px #0000008c;
+}
 .home-bas-bse:hover a.simpleBse, .home-haut-bse:hover a.simpleBse {
   opacity: 1;
 }
-.home-bas-bse a.simpleBse:hover, .home-haut-bse a.simpleBse:hover {
+.home-bas-bse a.simpleBse:hover, .home-haut-bse a.simpleBse:hover, .contactBse button.simpleBse {
+  cursor : pointer;
   box-shadow: 0px 0px 20px #000000c7;
 }
-
+button.simpleBse {
+  opacity: 1 !important;
+  margin-top: 20px;
+  width: 70%;
+}
 /* bouton home "nos produits" */
 .home-haut-bse a.simpleBse {
   margin: 5%;
@@ -75,4 +81,91 @@ a.simpleBse {
   justify-content: center;
   width: 100%;
   transition: transform .5s ease;
+}
+.bse-small-input input {
+  height: 2rem;
+  width: 70%;
+  margin-bottom: 1rem;
+}
+.bse-large-input textarea{
+  width: 70%;
+  margin-bottom: 1rem;
+}
+input, textarea, .produitsBse button.simpleBse {
+  border: none;
+  background-color: black;
+  font-family: DinM;
+  letter-spacing: 2px;
+  color: white;
+  font-size: 20px;
+  padding: 7px;
+}
+input, textarea {
+  padding-left: .5rem;
+}
+.produitsBse button.simpleBse:hover {
+  box-shadow: 0px 0px 30px #000000c7;
+}
+.produitsBse button.simpleBse {
+  width: 50%;
+  height: 2.5rem;
+  box-shadow: 0px 0px 7px #000000c7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer !important;
+}
+.produitsBse .simpleBse h4 {
+  margin: unset;
+}
+
+.produitsBse .boite-zoom {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  max-width: 100%;
+  padding-right: 3rem;
+  overflow: hidden;
+}
+.produitsBse .boite-zoom:hover {
+  transform: scale(1.04);
+}
+.contactBse button.simpleBse {
+  background-color: black;
+  color: white;
+}
+@media all and (max-width: 600px) {
+  a.simpleBse {
+    height: 50px !important;
+    padding: auto !important;
+  }
+  .bse-small-input, .bse-large-input, button.simpleBse {width:90%;}
+  button.simpleBse {height: 3rem;}
+  .bse-small-input input {
+    height: 3rem;
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  .bse-large-input textarea{
+    width: 100%;
+    margin-bottom: 1rem;
+    height: 12rem;
+  }
+  input, textarea {
+    padding-left: 1rem;
+  }
+  .produitsBse .simpleBse {
+    width: 80%;
+  }
+  .produitsBse .boxBse {
+    align-items: center;
+    padding: 2rem 2rem 5rem 2rem;
+    margin: 0px;
+  }
+  .produitsBse button.simpleBse {
+    width: 90%;
+    height: 3rem;
+  }
 }

@@ -33,9 +33,17 @@ const Categories = [
 const Project: React.FC<PageProps<DataProps>> = ({ data: { products }, location }) => (
     <Layout>
         <SEO title="Projects" pathname={location.pathname} />
-        <h1 sx={visuallyHidden} data-testid="page-title">
+        <h1 data-testid="page-title" className="titreBse">
             {locales.projects}
         </h1>
+
+        <div className="produitsBse">
+          <div className="boite-zoom">
+            <p>
+            Nos produits sont élaboré en Guadeloupe à partir de fruits récoltés localement. Notre carte évolue régulièrement et vous pouvez la découvrir en bas de page !
+            </p>
+            <button className="simpleBse"><h4>Passer commande</h4></button>
+          </div>
 
         {Categories.map((category) => (
             <div>
@@ -77,6 +85,8 @@ const Project: React.FC<PageProps<DataProps>> = ({ data: { products }, location 
                 </div>
             </div>
         ))}
+
+      </div>
     </Layout>
 )
 

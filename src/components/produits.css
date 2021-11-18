@@ -1,26 +1,8 @@
-@media all and (max-width: 600px) {
-  .vignette-bse {
-    width: 27vh !important;
-  }
-  .grid-text {
-    padding-left: 27vh !important;
-  }
-}
-
-h3.titre-bse {
-  font-family: DinM;
-  font-size: 1.5rem!important;
-  margin: 0px!important;
-}
 .sous-titre-bse {
   margin: 0px!important;
 }
 .contenance-bse {
   margin: 0px!important;
-}
-.prix-bse {
-  font-family: DinM;
-  margin-top: 20px!important;
 }
 .vignette-bse {
   width: 36vh;
@@ -35,4 +17,29 @@ h3.titre-bse {
   flex-direction: column;
   justify-content: center;
   padding: 1rem;
+}
+.produitsBse {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.produitsBse .boite-zoom p {
+  margin-bottom: 3rem;
+  color: black;
+  text-align: right;
+  width: 50vw;
+}
+@media all and (max-width: 600px) {
+  .vignette-bse {
+    width: 27vh !important;
+  }
+  .grid-text {
+    padding-left: 27vh !important;
+  }
+  .produitsBse .boite-zoom {
+    padding: 2rem;
+  }
+  .produitsBse .boite-zoom p {
+    width: 80vw;
+  }
 }
