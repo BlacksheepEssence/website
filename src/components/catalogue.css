@@ -1,0 +1,33 @@
+.produitsBse .simpleBse h4 {
+  margin: unset;
+}
+
+.produitsBse .boite-zoom {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding-top: 4rem;
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  max-width: 100%;
+  padding-right: 3rem;
+  overflow: hidden;
+}
+
+@media all and (max-width: 600px) {
+  .produitsBse .boite-zoom {
+    align-items: center;
+    padding: 2rem 2rem 5rem 2rem;
+    margin: 0px;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+  }
+  h2.categorie-bse {
+    line-height: 3;
+  }
+}
+@media all and (min-width: 1400px) {
+  .produitsBse {
+      padding: 0px 5vw;
+  }
+}

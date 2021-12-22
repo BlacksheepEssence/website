@@ -7,13 +7,13 @@ module.exports = {
     // Used for the title template on pages other than the index site
     siteTitle: `Blacksheep essences`,
     // Default title of the page
-    siteTitleAlt: `Blacksheep essences - long title`,
+    siteTitleAlt: `Blacksheep essences - Micro-distillerie en Guadeloupe`,
     // Can be used for e.g. JSONLD
-    siteHeadline: `Blacksheep essences - long title`,
+    siteHeadline: `Blacksheep essences - Micro-distillerie en Guadeloupe`,
     // Will be used to generate absolute URLs for og:image etc.
     //siteUrl: `https://jodie.lekoarts.de`,
     // Used for SEO
-    siteDescription: `Image-heavy photography portfolio with colorful accents & customizable pages. Includes adaptive image grids powered by CSS grid and automatic image integration into projects.`,
+    siteDescription: `Blacksheep Essences - Micro-distillerie en Guadeloupe. Nous travaillons nos saveurs de manière artisanale à partir de produits locaux de qualité.`,
     // Will be set on the html tag
     siteLanguage: `fr`,
     // Used for og:image and must be placed inside the `static` folder
@@ -29,7 +29,7 @@ module.exports = {
         projectsPath: `content/products`,
         projectsUrl: `/produits`,
         navigation: [
-          { name: `Accueil`, slug: `/home` },
+          { name: `Accueil`, slug: `/` },
           { name: `Produits`, slug: `/produits` },
           { name: `Présentation`, slug: `/presentation` },
           { name: `Contact`, slug: `/contact` },

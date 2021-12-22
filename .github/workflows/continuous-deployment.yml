@@ -26,7 +26,6 @@ jobs:
           preCommands: |
             npm install
             npm rebuild node-sass
-            npm i gatsby-cli sass-loader
             ./node_modules/.bin/gatsby build
 
       - name: Publish production on cloudflare
@@ -38,5 +37,4 @@ jobs:
           preCommands: |
             npm install
             npm rebuild node-sass
-            npm i gatsby-cli sass-loader
             ./node_modules/.bin/gatsby build

@@ -1,0 +1,98 @@
+@media all and (max-width: 500px) {
+  .bas-droite-bse {
+    font-size: 1.7rem !important;
+  }
+}
+@media all and (min-width: 1300px) {
+  html {
+    font-size: 26px !important;
+  }
+}
+
+h1 {
+  font-family: Deby !important;
+  font-weight: 400 !important;
+  font-size: 4.2rem !important;
+}
+h1.titreBse {
+  margin-left: 3rem;
+}
+h2.categorie-bse {
+  font-family: DinL !important;
+  font-weight: 100 !important;
+  font-size: 1.3rem !important;
+  line-height: 2;
+  letter-spacing: .1rem !important;
+  background-color: black !important;
+  color: white !important;
+  padding-left: 1.5rem !important;
+  margin: 0px !important;
+  text-transform: uppercase;
+}
+h2 {
+  font-family: DinB !important;
+}
+h3 {
+  font-family: DinL;
+  font-weight: 400 !important;
+  font-size: 1.2rem !important;
+  letter-spacing: 1px !important;
+  line-height: 23pt !important;
+}
+h3.titre-bse {
+  font-family: DinM;
+  font-size: 1.5rem!important;
+  margin: 0px!important;
+}
+h3.prix-bse {
+  font-family: DinM;
+  margin-top: 20px!important;
+  margin-bottom: 0px;
+}
+
+h4 {
+  font-family: DinM !important;
+  text-transform: uppercase !important;
+  font-size: 1rem !important;
+  letter-spacing: 2px;
+  height: auto !important;
+  font-weight: 400 !important;
+}
+p {
+  font-family: DinL !important;
+  font-weight: 400 !important;
+  font-size: 1rem !important;
+  letter-spacing: 1px !important;
+  line-height: 23pt;
+}
+label {
+  line-height: 0px;;
+  font-family: DinM;
+  font-weight: 400;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  color: black;
+}
+header ul a{
+  font-family: DinM;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  letter-spacing: 2.5px;
+}
+header ul li:last-of-type {
+  margin: 3rem 0rem;
+}
+header ul li:last-of-type a {
+  font-size: 0.9rem;
+  text-decoration: underline;
+  text-transform: initial;
+  letter-spacing: 1.2px;
+}
+@media all and (max-width: 600px) {
+  h1.titreBse {
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+    margin-top: 6rem;
+  }
+}

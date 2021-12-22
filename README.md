@@ -1,6 +1,15 @@
 # blacksheep_essence_website
 
 
+## Environments URL :
+
+- develop : https://blacksheep-essences-develop.blacksheep-essences.workers.dev
+- production : https://blacksheep-essences-production.blacksheep-essences.workers.dev (https://www.blacksheepessences.com)
+
+## Formulaire de contact :
+
+- https://app.getform.io/forms
+
 
 ## Prérequis : 
 
