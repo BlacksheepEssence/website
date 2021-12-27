@@ -6,7 +6,7 @@ import {visuallyHidden} from "@lekoarts/gatsby-theme-jodie/src/styles/utils";
 import locales from "@lekoarts/gatsby-theme-jodie/src/locales/index";
 import "../../../components/style.css"
 import photo from "/static/home_desk.jpg"
-import photo_p from "/static/surette.png"
+import photo_p from "/static/surette.jpg"
 import {Link} from "gatsby";
 
 const Homepage = () => {
