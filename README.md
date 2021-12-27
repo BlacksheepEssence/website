@@ -4,7 +4,7 @@
 ## Environments URL :
 
 - develop : https://blacksheep-essences-develop.blacksheep-essences.workers.dev
-- production : https://blacksheep-essences-production.blacksheep-essences.workers.dev (https://www.blacksheepessences.com)
+- production : https://www.blacksheepessences.com
 
 ## Formulaire de contact :
 
