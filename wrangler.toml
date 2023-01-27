@@ -5,6 +5,7 @@ zone_id = "5f24f61abe6bca245c393fb542bab444"
 workers_dev = true
 route = ""
 vars = { ENVIRONMENT = "develop" }
+compatibility_date = "2023-01-27"
 
 [site]
 bucket = "public"
